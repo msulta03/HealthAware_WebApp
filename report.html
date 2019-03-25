@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- default styles -->
+<link rel = "stylesheet" type = "text/css" href="style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<link rel = "stylesheet" type = "text/css" href = "report.css">
+<title> Report</title>    
+    
+</head>
+
+<body>
+    
+    
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto w-100 justify-content-end">
+           <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign Up <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+  
+    </div>
+</nav>
+  <!-- if this is their first time display this form -->  
+ <form>
+  <div class="form-group">
+    <label>Age</label>
+    <input type = "text" class="form-control" placeholder="How old are you?">
+  </div>
+  <div class="form-group">
+    <label>Weight</label>
+    <input type="text" class="form-control"  placeholder="How much do you weigh in lbs?">
+  </div>
+     <div>
+         
+          <div class="form-group">
+    <label>Heightt</label>
+    <input type="text" class="form-control"  placeholder="What's your height in inches?">
+  </div>
+     <div>
+         
+      
+    <div class="form-group">
+    <label>Gender</label>
+    <select class="form-control">
+        <div style = "text-align: center;">
+      <option>Male</option>
+      <option>Female</option>
+          </div>
+    </select>        
+  </div>
+         
+         
+           
+  <button type="submit" class="btn btn-primary" style = "letter-spacing: 1px;">Start your Health Journey!</button>
+         </div>
+     </div>
+    </form>
+    
+     <!-- if not then display this form (once a day)-->  
+ <form>
+  <div class="form-group">
+    <label>Blood Sugar</label>
+    <input type="text" class="form-control" placeholder="Today's blood sugar levels">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Heart Rate</label>
+    <input type="text" class="form-control" placeholder="Today's average heart rate">
+  </div>
+     <div class="form-group">
+    <label for="exampleInputPassword1">Weight</label>
+    <input type="text" class="form-control" placeholder= "Today's Weight">
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Calorie Count</label>
+    <input type="text" class="form-control" placeholder= "Today's Calories eaten">
+  </div>
+     <div>
+  <button type="submit" class="btn btn-primary" style = "letter-spacing: 1px;">Log my Progress!</button>
+         </div>
+</form>
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+nav ul a {
+  color: black !important;
+  font-family: 'Poiret One' cursive;
+  font-size: 22px !important;
+  font-weight: 200;
+}
+
+.myNav {
+  background-color: transparent !important;
+  border-bottom: 1px solid grey;
+  background: rgba(70, 72, 82, 0.3) !important;
+}
+/*  ---------------------------------------------------------------------------------*/
+.jumbotron{
+  border: 1px solid grey;
+  background-color: transparent !important;
+  font-family: 'Poiret One' cursive;
+}
+
+#slogan{
+  font-family: 'Audiowide', cursive;
+  font-size: 3em !important;
+}
+#followupquote{
+  color: rgb(149, 153, 148);
+  font-weight: lighter;
+  font-size: 15px;
+}
+blockquote{
+  background: rgba(70, 72, 82, 0.3);
+}
+
+/*  ---------------------------------------------------------------------------------*/
+.card-columns{
+  /* background: rgb(28, 40, 25); */
+  background: url("/Users/moe/Desktop/SWProject/images/fabulous-black-liquid-background-it-is-currently-set-with-html-page-background-color-and-html-page-background-color-red.jpg");
+  font-family: 'Poiret One' cursive !important;
+  font-weight: lighter !important;
+  font-size: 15px !important;
+}
+footer{
+  font-family: 'Poiret One' cursive !important;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.footer-copyright{
+  font-size: 13px !important;
+  padding-top: 5%;
+  font-weight: lighter !important;
+  color: rgb(31, 33, 31);
+  background: rgba(70, 72, 82, 0.3) !important;
+}
+h6{
+  font-size: 15px !important;
+  padding-top: 5%;
+  color: black;
+  font-weight: bold;
+}
+
+/*  ---------------------------------------------------------------------------------*/
+body {
+  background: url("/Users/moe/Desktop/SWProject/images/Gradient-Background-HD-Wallpaper-16352.jpg");
+}
